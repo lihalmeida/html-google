@@ -1,3 +1,174 @@
-h1 {
-  color: red;
+html,
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+a {
+  cursor: pointer;
+}
+
+#header{
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+}
+
+.header {
+  display: inline-block;
+  margin: 0 18px 0 0;
+}
+
+#google_account{
+  float: right;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: midnightblue;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+#notifications{
+  float: right;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: gray;
+  border-radius: 100%;
+  margin-top: 6px;
+}
+
+#notifications img{
+  width: 12px;
+  height: 12px;
+  padding: 3.5px;
+}
+
+#google_apps{
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding-top: 1px;
+  margin-right: 20px;
+}
+
+#google_images{
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding-top: 7px;
+  margin-right: 35px;
+}
+
+#gmail{
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding-top: 7px;
+  margin-right: 20px;
+}
+
+#gmail a{
+  text-decoration: none;
+  color: black;
+}
+
+#gmail a:hover{
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+#google_images a{
+  text-decoration: none;
+  color: black;
+}
+
+#google_images a:hover{
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+#google_logo img {
+  width: 272px;
+  height: 92;
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+
+#search{
+
+  width: 584px;
+  height: 44px;
+  border: none;
+  margin: auto;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.search{
+  display: inline-block;
+}
+
+#search_form{
+  width: 480px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+}
+
+#keyboard_icon{
+  width: 40px;
+  height: 44px;
+  padding: 0;
+}
+
+#keyboard_icon img{
+  width: 19px;
+  margin-bottom: 15px;
+}
+
+#search_icon{
+  width: 40px;
+  height: 44px;
+}
+
+#search_icon img{
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+#search_button{
+  margin: 40px 0;
+}
+
+.search_button{
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0px 4px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#search_button a:hover{
+  border: 1px solid #c0bfbf;
+  color: black;
 }
