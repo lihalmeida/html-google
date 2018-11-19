@@ -1,0 +1,45 @@
+--- HTML ---
+
+tag & attributes
+
+LAYOUT
+<div>
+<header>
+<nav>
+<aside>
+<main>
+<article>
+<section>
+<footer>
+
+TEXT
+<p>
+<span>
+<a> // href, alt, style, data-username
+
+HEADINGS
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<br/>
+
+LISTS
+<ul>
+<ol>
+<li>
+
+TABLES
+<table>
+<thead>
+<tbody>
+<tfoot>
+<tr>
+<td>
+
+FORMS
+<form>
+<input>
+<textarea>
+<button>

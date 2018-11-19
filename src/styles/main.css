@@ -5,16 +5,30 @@ body {
   margin: 0 auto;
   background-color: white;
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 a {
   cursor: pointer;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+}
+
 #header{
   width: 100%;
   height: 30px;
   margin: 15px 0;
+  padding-right: 10px;
 }
 
 .header {
@@ -171,4 +185,54 @@ a {
 #search_button a:hover{
   border: 1px solid #c0bfbf;
   color: black;
+}
+#privacy li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#privacy img{
+  width: 48px;
+  height: 48px;
+}
+
+#privacy a{
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+#privacy a:hover{
+  color: #1a0dab;
+  text-decoration: underline;
+}
+
+#pais{
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+  padding: 12px 30px;
+  background-color: #f2f2f2;
+  margin: 20px 0 0 0;
+  color: rgba(0,0,0,.54);
+  border-top: 1px solid #d3d3d3;
+}
+
+#footer{
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  margin: 0;
+  color: rgba(0,0,0,.54);
+  border-top: 1px solid #d3d3d3;
+  padding: 1px 30px;
+}
+
+.right{
+  float: right;
+  padding: 5px 10px;
+}
+
+.left{
+  float: left;
+  padding: 5px 10px;
 }

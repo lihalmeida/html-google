@@ -1,0 +1,60 @@
+--- CSS ---~
+
+ANATOMIA DE UMA REGRA DE CSS
+div .items {      -> selector
+  color: red;     ->
+}
+
+PRIORIDADES
+TAG: (1)      -> a {}
+CLASSES: (10) -> .items {}
+IDS: (100)    -> #searchBtn {}
+!important
+
+div p li .colors {} -> 13 pontos
+div p .blues {}     -> 12 pontos
+
+NESTING
+```
+div.items p a#submit { ...css... }
+
+<div class="items other-classes">
+  <p>
+    <a id="submit"></a>
+  </p>
+</div>
+```
+
+```
+#menu a.enabled { ...css... }
+
+<div id="menu" class="items other-classes">
+  <a class="enabled"></a>
+  <a class="disabled"></a>
+  <a></a>
+</div>
+```
+
+
+PSEUDO-ELEMENTOS
+a:link {}
+a:hover {}
+a:visited {}
+a:active {}
+input:disabled {}
+.items::before { content: 'mais html' }
+i::after { content: 'a'; font-family: 'Icons font' }
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
