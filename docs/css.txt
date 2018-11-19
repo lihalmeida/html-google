@@ -58,3 +58,40 @@ a:hover {
   text-decoration: underline;
   color: lightblue;
 }
+
+
+DIMENSIONS
+
+min-width:
+width:
+max-width:
+  - dinâmicas: auto, 100%, 100vw, calc(100% - 20px);
+  - estáticas: 100px, 20em, 20rem;
+
+min-height:
+height:
+max-height:
+  - dinâmicas: auto, 100%, 100vh, calc(100% - 20px);
+  - estáticas: 100px, 20em, 20rem;
+
+
+
+padding: 12px;                // top/right/bottom/left
+padding: 12px 30px;           // top/bottom e left/right
+padding: 12px 30px 10px;      // top, left/right, bottom
+padding: 12px 30px 10px 6px;  // top, right, bottom, left
+
+
+
+COM FLEXBOX
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;      /* alinhar filhos verticalmente */
+  justify-content: center;  /* alinhar filhos horizontalmente */
+}
+
+
+// margin: 1 2 3 4;
+

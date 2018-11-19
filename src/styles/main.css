@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: arial, sans-serif;
@@ -8,6 +12,7 @@ body {
   height: 100%;
   text-align: center;
 }
+
 a {
   cursor: pointer;
 }
@@ -22,6 +27,10 @@ ul{
 
 li{
   display: inline-block;
+}
+
+ul {
+  padding: 0;
 }
 
 #header{
@@ -191,48 +200,71 @@ li{
   vertical-align: middle;
 }
 
-#privacy img{
+#privacy img {
   width: 48px;
   height: 48px;
 }
 
-#privacy a{
+#privacy a {
   color: #1a0dab;
   text-decoration: none;
 }
 
-#privacy a:hover{
+#privacy a:hover {
   color: #1a0dab;
   text-decoration: underline;
 }
 
-#pais{
+.main {
+  min-height: 600px;
+}
+
+#pais {
   font-size: 15px;
   width: 100%;
   text-align: left;
   padding: 12px 30px;
   background-color: #f2f2f2;
-  margin: 20px 0 0 0;
   color: rgba(0,0,0,.54);
   border-top: 1px solid #d3d3d3;
 }
 
-#footer{
+.footer {
+  margin-top: 80px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.footer li {
+  padding: 5px 10px;
+}
+
+.footer-line2 {
   width: 100%;
-  height: 40px;
+  height: auto;
   background-color: #f2f2f2;
   margin: 0;
   color: rgba(0,0,0,.54);
   border-top: 1px solid #d3d3d3;
   padding: 1px 30px;
+  text-align: left;
 }
 
-.right{
+.right {
   float: right;
   padding: 5px 10px;
 }
 
-.left{
-  float: left;
-  padding: 5px 10px;
+.footer-left {
+  display: inline-block;
+  text-align: left;
+}
+
+.footer-right {
+  display: inline-block;
+  text-align: right;
 }
